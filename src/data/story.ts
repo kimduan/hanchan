@@ -62,7 +62,7 @@ export const CHAPTERS: Chapter[] = [
     ],
     photos: [
       { src: '/photos/nu-cuoi-1.jpg', caption: 'Nụ cười đầu tiên' },
-      { src: '/photos/nu-cuoi-2.jpg', caption: 'Cả nhà cùng cười' },
+      { src: '/photos/nu-cuoi-2.jpg', caption: 'Con tròn 1 tháng' },
     ],
     layout: 'duo',
   },
@@ -88,8 +88,12 @@ export const CHAPTERS: Chapter[] = [
       'Biển, núi, những con đường lạ — con mở to mắt nhìn tất cả.',
       'Bố mẹ muốn cùng con đi thật nhiều nơi, để con biết thế giới này đẹp đến nhường nào.',
     ],
-    photos: [{ src: '/photos/chuyen-di-1.jpg', caption: 'Ra sân bóng chơi' }],
-    layout: 'single',
+    photos: [
+      { src: '/photos/chuyen-di-2.jpg', caption: 'Lần đầu đến một đất nước xa lạ' },
+      { src: '/photos/chuyen-di-3.jpg', caption: 'Mùa hoa anh đào đầu tiên' },
+      { src: '/photos/chuyen-di-1.jpg', caption: 'Ra sân bóng chơi' },
+    ],
+    layout: 'grid',
   },
   {
     id: 'yeu-thuong',
@@ -113,8 +117,7 @@ export const CHAPTERS: Chapter[] = [
       'Hai năm trôi qua nhanh như một cái chớp mắt.',
       'Hôm nay con hai tuổi — cô bé nhỏ đã biết cười, biết chạy, biết ôm bố mẹ thật chặt.',
     ],
-    // Chưa có ảnh — thêm file vào public/photos/ rồi khai báo một dòng ở đây
-    photos: [],
+    photos: [{ src: '/photos/sinh-nhat-1.jpg', caption: 'Sinh nhật đầu tiên của con' }],
     layout: 'single',
   },
 ]
