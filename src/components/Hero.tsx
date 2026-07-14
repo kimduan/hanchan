@@ -66,7 +66,7 @@ function ShootingStar() {
             <linearGradient id="star-fill" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0%" stopColor="#ffffff" />
               <stop offset="45%" stopColor="#fef3c7" />
-              <stop offset="100%" stopColor="#f9a8d4" />
+              <stop offset="100%" stopColor="#f472b6" />
             </linearGradient>
           </defs>
           <path
@@ -103,7 +103,7 @@ export default function Hero() {
           className="font-script text-5xl leading-tight text-transparent sm:text-7xl md:text-8xl"
           style={{
             backgroundImage:
-              'linear-gradient(120deg, #fef3c7 0%, #ffffff 35%, #f9a8d4 70%, #c4b5fd 100%)',
+              'linear-gradient(120deg, #fef3c7 0%, #ffffff 35%, #f472b6 70%, #c4b5fd 100%)',
             backgroundClip: 'text',
             WebkitBackgroundClip: 'text',
           }}

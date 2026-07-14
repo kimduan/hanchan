@@ -15,7 +15,7 @@ type Status = 'idle' | 'sending' | 'sent' | 'error'
 const NOTE_TILTS = [-2, 1.5, -1, 2, -1.5, 1]
 const NOTE_COLORS = [
   'from-violet-200 to-violet-300',
-  'from-rose-200 to-rose-300',
+  'from-rose-300 to-rose-400',
   'from-amber-100 to-amber-200',
   'from-sky-200 to-sky-300',
 ]
@@ -109,7 +109,7 @@ export default function Guestbook() {
           <h2
             className="font-script text-4xl text-transparent sm:text-6xl"
             style={{
-              backgroundImage: 'linear-gradient(120deg, #ffffff 0%, #ddd6fe 50%, #f9a8d4 100%)',
+              backgroundImage: 'linear-gradient(120deg, #ffffff 0%, #ddd6fe 50%, #f472b6 100%)',
               backgroundClip: 'text',
               WebkitBackgroundClip: 'text',
             }}

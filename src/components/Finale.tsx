@@ -6,7 +6,7 @@ import { BABY, FINALE } from '../data/story'
 /** Bắn pháo hoa liên tục trong `duration` mili-giây */
 function launchFireworks(duration = 5000) {
   const end = Date.now() + duration
-  const colors = ['#a78bfa', '#f9a8d4', '#fef3c7', '#ffffff', '#c4b5fd']
+  const colors = ['#a78bfa', '#f472b6', '#fef3c7', '#ffffff', '#c4b5fd']
 
   const frame = () => {
     confetti({
@@ -88,7 +88,7 @@ function Candle({ lit, delay }: { lit: boolean; delay: number }) {
         )}
       </div>
       {/* Thân nến */}
-      <div className="h-14 w-3 rounded-t-sm bg-gradient-to-b from-rose-200 via-rose-300 to-rose-400 shadow-[inset_-2px_0_3px_rgba(0,0,0,0.15)]" />
+      <div className="h-14 w-3 rounded-t-sm bg-gradient-to-b from-rose-300 via-rose-400 to-rose-500 shadow-[inset_-2px_0_3px_rgba(0,0,0,0.15)]" />
     </div>
   )
 }
@@ -141,7 +141,7 @@ export default function Finale() {
           </div>
 
           {/* Tầng trên */}
-          <div className="relative -mt-0.5 h-16 w-40 rounded-t-md bg-gradient-to-b from-rose-100 to-rose-200 shadow-lg">
+          <div className="relative -mt-0.5 h-16 w-40 rounded-t-md bg-gradient-to-b from-rose-200 to-rose-300 shadow-lg">
             <div className="absolute inset-x-0 top-0 h-3 rounded-t-md bg-white/70" />
             <div className="absolute inset-x-0 top-2.5 flex justify-around">
               {[0, 1, 2, 3, 4].map((i) => (
@@ -154,7 +154,7 @@ export default function Finale() {
             <div className="absolute inset-x-0 top-0 h-3 bg-white/70" />
             <div className="absolute inset-x-0 top-2.5 flex justify-around">
               {[0, 1, 2, 3, 4, 5, 6].map((i) => (
-                <span key={i} className="h-3.5 w-1.5 rounded-b-full bg-rose-300/70" />
+                <span key={i} className="h-3.5 w-1.5 rounded-b-full bg-rose-400/80" />
               ))}
             </div>
             <div className="absolute inset-x-0 bottom-3 text-center font-script text-2xl text-violet-900/70">
@@ -185,14 +185,14 @@ export default function Finale() {
       >
         <div className="relative">
           <div
-            className="absolute inset-0 -z-10 rounded-full bg-rose-400/20 blur-3xl"
+            className="absolute inset-0 -z-10 rounded-full bg-rose-500/25 blur-3xl"
             style={{ animation: 'glow-pulse 5s ease-in-out infinite' }}
           />
           <h2
             className="font-script text-4xl leading-tight text-transparent sm:text-6xl"
             style={{
               backgroundImage:
-                'linear-gradient(120deg, #fef3c7 0%, #ffffff 40%, #f9a8d4 75%, #c4b5fd 100%)',
+                'linear-gradient(120deg, #fef3c7 0%, #ffffff 40%, #f472b6 75%, #c4b5fd 100%)',
               backgroundClip: 'text',
               WebkitBackgroundClip: 'text',
             }}

@@ -88,7 +88,7 @@ export default function StarField() {
 
       {/* Ánh bình minh ấm dần lên ở cuối trang */}
       <motion.div
-        className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_100%,rgba(249,168,212,0.55)_0%,rgba(167,139,250,0.25)_35%,transparent_70%)]"
+        className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_100%,rgba(244,114,182,0.6)_0%,rgba(167,139,250,0.25)_35%,transparent_70%)]"
         style={{ opacity: dawn }}
       />
     </div>
