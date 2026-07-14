@@ -62,10 +62,9 @@ export const CHAPTERS: Chapter[] = [
     ],
     photos: [
       { src: '/photos/nu-cuoi-1.jpg', caption: 'Nụ cười đầu tiên' },
-      { src: '/photos/nu-cuoi-2.jpg', caption: 'Cười tít mắt' },
-      { src: '/photos/nu-cuoi-3.jpg', caption: 'Cả nhà cùng cười' },
+      { src: '/photos/nu-cuoi-2.jpg', caption: 'Cả nhà cùng cười' },
     ],
-    layout: 'grid',
+    layout: 'duo',
   },
   {
     id: 'buoc-chan',
@@ -76,7 +75,8 @@ export const CHAPTERS: Chapter[] = [
       'Con ngã, con đứng dậy, con đi. Rồi con chạy.',
       'Bố mẹ chỉ biết đứng phía sau, dang tay chờ, và thầm mong con luôn dũng cảm như thế.',
     ],
-    photos: [{ src: '/photos/buoc-chan-1.jpg', caption: 'Bước đi đầu đời' }],
+    // Chưa có ảnh — thêm file vào public/photos/ rồi khai báo một dòng ở đây
+    photos: [],
     layout: 'single',
   },
   {
@@ -88,12 +88,8 @@ export const CHAPTERS: Chapter[] = [
       'Biển, núi, những con đường lạ — con mở to mắt nhìn tất cả.',
       'Bố mẹ muốn cùng con đi thật nhiều nơi, để con biết thế giới này đẹp đến nhường nào.',
     ],
-    photos: [
-      { src: '/photos/chuyen-di-1.jpg', caption: 'Lần đầu thấy biển' },
-      { src: '/photos/chuyen-di-2.jpg', caption: 'Trên đường đi chơi' },
-      { src: '/photos/chuyen-di-3.jpg', caption: 'Một nơi rất xa' },
-    ],
-    layout: 'grid',
+    photos: [{ src: '/photos/chuyen-di-1.jpg', caption: 'Ra sân bóng chơi' }],
+    layout: 'single',
   },
   {
     id: 'yeu-thuong',
@@ -104,12 +100,8 @@ export const CHAPTERS: Chapter[] = [
       'Ông bà, bố mẹ, và tất cả những người luôn dõi theo con.',
       'Con lớn lên trong rất nhiều yêu thương — và đó là điều bố mẹ tự hào nhất.',
     ],
-    photos: [
-      { src: '/photos/yeu-thuong-1.jpg', caption: 'Ông bà và cháu' },
-      { src: '/photos/yeu-thuong-2.jpg', caption: 'Bố và con' },
-      { src: '/photos/yeu-thuong-3.jpg', caption: 'Mẹ và con' },
-      { src: '/photos/yeu-thuong-4.jpg', caption: 'Cả nhà mình' },
-    ],
+    // Chưa có ảnh — thêm file vào public/photos/ rồi khai báo các dòng ở đây
+    photos: [],
     layout: 'grid',
   },
   {
@@ -121,7 +113,8 @@ export const CHAPTERS: Chapter[] = [
       'Hai năm trôi qua nhanh như một cái chớp mắt.',
       'Hôm nay con hai tuổi — cô bé nhỏ đã biết cười, biết chạy, biết ôm bố mẹ thật chặt.',
     ],
-    photos: [{ src: '/photos/sinh-nhat-1.jpg', caption: 'Gia Hân 2 tuổi' }],
+    // Chưa có ảnh — thêm file vào public/photos/ rồi khai báo một dòng ở đây
+    photos: [],
     layout: 'single',
   },
 ]

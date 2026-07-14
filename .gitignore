@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ảnh/video gốc chưa nén — giữ trên máy, không đẩy lên GitHub
+anh-goc/
