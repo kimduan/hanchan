@@ -5,11 +5,12 @@
   --font-body: 'Quicksand', system-ui, sans-serif;
   --font-script: 'Dancing Script', cursive;
 
-  --color-night-900: #06040f;
-  --color-night-800: #0d0a24;
-  --color-night-700: #171243;
-  --color-night-600: #241a5e;
-  --color-glow: #a78bfa;
+  /* Trời đêm hồng: từ mận thẫm ở dưới lên hồng sen ở đỉnh trời */
+  --color-night-900: #17040f;
+  --color-night-800: #2c0820;
+  --color-night-700: #4d0f38;
+  --color-night-600: #7a1a55;
+  --color-glow: #f472b6;
   --color-star: #fef3c7;
   --color-rose-glow: #f472b6;
 }

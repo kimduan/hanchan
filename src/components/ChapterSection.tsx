@@ -34,7 +34,7 @@ export default function ChapterSection({ chapter }: { chapter: Chapter }) {
 
           <h2 className="font-script text-4xl text-transparent sm:text-6xl"
             style={{
-              backgroundImage: 'linear-gradient(120deg, #ffffff 0%, #f9a8d4 45%, #ec4899 100%)',
+              backgroundImage: 'linear-gradient(120deg, #ffffff 0%, #fef3c7 50%, #fde68a 100%)',
               backgroundClip: 'text',
               WebkitBackgroundClip: 'text',
             }}

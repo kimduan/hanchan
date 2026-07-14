@@ -45,13 +45,14 @@ export default function StarField() {
 
   return (
     <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
-      {/* Nền trời đêm */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,#241a5e_0%,#0d0a24_45%,#06040f_100%)]" />
+      {/* Nền trời đêm hồng */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,#8f1f61_0%,#4d0f38_40%,#2c0820_70%,#17040f_100%)]" />
 
-      {/* Vệt tinh vân tím hồng mờ ảo */}
-      <div className="absolute top-[10%] -left-[10%] h-[45vh] w-[60vw] rounded-full bg-violet-600/12 blur-[110px]" />
-      <div className="absolute right-[-5%] bottom-[15%] h-[40vh] w-[50vw] rounded-full bg-fuchsia-500/10 blur-[120px]" />
-      <div className="absolute top-[45%] left-[30%] h-[35vh] w-[40vw] rounded-full bg-indigo-500/10 blur-[100px]" />
+      {/* Vệt tinh vân hồng tím mơ màng */}
+      <div className="absolute top-[10%] -left-[10%] h-[45vh] w-[60vw] rounded-full bg-pink-500/20 blur-[110px]" />
+      <div className="absolute right-[-5%] bottom-[15%] h-[40vh] w-[50vw] rounded-full bg-fuchsia-500/18 blur-[120px]" />
+      <div className="absolute top-[45%] left-[30%] h-[35vh] w-[40vw] rounded-full bg-rose-500/15 blur-[100px]" />
+      <div className="absolute top-[70%] right-[15%] h-[30vh] w-[35vw] rounded-full bg-purple-600/15 blur-[110px]" />
 
       <motion.div className="absolute inset-0" style={{ y: farY }}>
         {farStars.map((s, i) => (
@@ -88,7 +89,7 @@ export default function StarField() {
 
       {/* Ánh bình minh ấm dần lên ở cuối trang */}
       <motion.div
-        className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_100%,rgba(244,114,182,0.6)_0%,rgba(167,139,250,0.25)_35%,transparent_70%)]"
+        className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_100%,rgba(251,191,36,0.35)_0%,rgba(244,114,182,0.45)_30%,transparent_70%)]"
         style={{ opacity: dawn }}
       />
     </div>

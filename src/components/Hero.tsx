@@ -96,14 +96,14 @@ export default function Hero() {
       <div className="relative">
         {/* Quầng sáng sau tên bé */}
         <div
-          className="absolute inset-0 -z-10 rounded-full bg-pink-500/30 blur-3xl"
+          className="absolute inset-0 -z-10 rounded-full bg-amber-300/25 blur-3xl"
           style={{ animation: 'glow-pulse 5s ease-in-out infinite' }}
         />
         <motion.h1
           className="font-script text-5xl leading-tight text-transparent sm:text-7xl md:text-8xl"
           style={{
             backgroundImage:
-              'linear-gradient(120deg, #fde68a 0%, #ffffff 20%, #f472b6 45%, #ec4899 70%, #db2777 100%)',
+              'linear-gradient(120deg, #fde68a 0%, #ffffff 30%, #fef3c7 60%, #ffffff 85%, #fde68a 100%)',
             backgroundClip: 'text',
             WebkitBackgroundClip: 'text',
           }}

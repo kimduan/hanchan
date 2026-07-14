@@ -185,14 +185,14 @@ export default function Finale() {
       >
         <div className="relative">
           <div
-            className="absolute inset-0 -z-10 rounded-full bg-rose-500/25 blur-3xl"
+            className="absolute inset-0 -z-10 rounded-full bg-amber-300/25 blur-3xl"
             style={{ animation: 'glow-pulse 5s ease-in-out infinite' }}
           />
           <h2
             className="font-script text-4xl leading-tight text-transparent sm:text-6xl"
             style={{
               backgroundImage:
-                'linear-gradient(120deg, #fde68a 0%, #ffffff 25%, #ec4899 65%, #db2777 100%)',
+                'linear-gradient(120deg, #fde68a 0%, #ffffff 35%, #fef3c7 70%, #ffffff 100%)',
               backgroundClip: 'text',
               WebkitBackgroundClip: 'text',
             }}
