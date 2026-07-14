@@ -6,7 +6,7 @@ import { BABY, FINALE } from '../data/story'
 /** Bắn pháo hoa liên tục trong `duration` mili-giây */
 function launchFireworks(duration = 5000) {
   const end = Date.now() + duration
-  const colors = ['#a78bfa', '#f472b6', '#fef3c7', '#ffffff', '#c4b5fd']
+  const colors = ['#a78bfa', '#ec4899', '#fef3c7', '#ffffff', '#c4b5fd']
 
   const frame = () => {
     confetti({
@@ -192,7 +192,7 @@ export default function Finale() {
             className="font-script text-4xl leading-tight text-transparent sm:text-6xl"
             style={{
               backgroundImage:
-                'linear-gradient(120deg, #fef3c7 0%, #ffffff 40%, #f472b6 75%, #c4b5fd 100%)',
+                'linear-gradient(120deg, #fde68a 0%, #ffffff 25%, #ec4899 65%, #db2777 100%)',
               backgroundClip: 'text',
               WebkitBackgroundClip: 'text',
             }}

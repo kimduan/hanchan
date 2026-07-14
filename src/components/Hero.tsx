@@ -66,7 +66,7 @@ function ShootingStar() {
             <linearGradient id="star-fill" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0%" stopColor="#ffffff" />
               <stop offset="45%" stopColor="#fef3c7" />
-              <stop offset="100%" stopColor="#f472b6" />
+              <stop offset="100%" stopColor="#ec4899" />
             </linearGradient>
           </defs>
           <path
@@ -96,14 +96,14 @@ export default function Hero() {
       <div className="relative">
         {/* Quầng sáng sau tên bé */}
         <div
-          className="absolute inset-0 -z-10 rounded-full bg-violet-400/25 blur-3xl"
+          className="absolute inset-0 -z-10 rounded-full bg-pink-500/30 blur-3xl"
           style={{ animation: 'glow-pulse 5s ease-in-out infinite' }}
         />
         <motion.h1
           className="font-script text-5xl leading-tight text-transparent sm:text-7xl md:text-8xl"
           style={{
             backgroundImage:
-              'linear-gradient(120deg, #fef3c7 0%, #ffffff 35%, #f472b6 70%, #c4b5fd 100%)',
+              'linear-gradient(120deg, #fde68a 0%, #ffffff 20%, #f472b6 45%, #ec4899 70%, #db2777 100%)',
             backgroundClip: 'text',
             WebkitBackgroundClip: 'text',
           }}
