@@ -67,17 +67,21 @@ export const CHAPTERS: Chapter[] = [
     layout: 'duo',
   },
   {
-    id: 'buoc-chan',
+    id: 'thich-choi',
     index: '03',
-    title: 'Những bước chân đầu tiên',
-    subtitle: 'Chập chững đi vào thế giới',
+    title: 'Thích chơi và tò mò mọi thứ',
+    subtitle: 'Cái gì con cũng muốn biết',
     body: [
-      'Con ngã, con đứng dậy, con đi. Rồi con chạy.',
-      'Bố mẹ chỉ biết đứng phía sau, dang tay chờ, và thầm mong con luôn dũng cảm như thế.',
+      'Con ngã, con đứng dậy, con đi. Rồi con chạy khắp nhà.',
+      'Cái gì cũng lạ, cái gì cũng phải cầm lên xem cho bằng được — và bố mẹ chỉ biết đứng nhìn con khám phá thế giới.',
     ],
-    // Chưa có ảnh — thêm file vào public/photos/ rồi khai báo một dòng ở đây
-    photos: [],
-    layout: 'single',
+    photos: [
+      { src: '/photos/thich-choi-1.jpg', caption: 'Cái này là cái gì nhỉ?' },
+      { src: '/photos/thich-choi-2.jpg', caption: 'Nghiên cứu rất kỹ' },
+      { src: '/photos/thich-choi-3.jpg', caption: 'Chơi cả ngày không chán' },
+      { src: '/photos/thich-choi-4.jpg', caption: 'Tò mò mọi thứ' },
+    ],
+    layout: 'grid',
   },
   {
     id: 'chuyen-di',
@@ -91,6 +95,8 @@ export const CHAPTERS: Chapter[] = [
     photos: [
       { src: '/photos/chuyen-di-2.jpg', caption: 'Lần đầu đến một đất nước xa lạ' },
       { src: '/photos/chuyen-di-3.jpg', caption: 'Mùa hoa anh đào đầu tiên' },
+      { src: '/photos/chuyen-di-4.jpg', caption: 'Trên những con đường lạ' },
+      { src: '/photos/chuyen-di-5.jpg', caption: 'Đi đâu con cũng thích' },
       { src: '/photos/chuyen-di-1.jpg', caption: 'Ra sân bóng chơi' },
     ],
     layout: 'grid',
@@ -98,14 +104,18 @@ export const CHAPTERS: Chapter[] = [
   {
     id: 'yeu-thuong',
     index: '05',
-    title: 'Những người yêu thương',
+    title: 'Được mọi người yêu thương',
     subtitle: 'Gia đình mình',
     body: [
       'Ông bà, bố mẹ, và tất cả những người luôn dõi theo con.',
       'Con lớn lên trong rất nhiều yêu thương — và đó là điều bố mẹ tự hào nhất.',
     ],
-    // Chưa có ảnh — thêm file vào public/photos/ rồi khai báo các dòng ở đây
-    photos: [],
+    photos: [
+      { src: '/photos/yeu-thuong-1.jpg', caption: 'Trong vòng tay gia đình' },
+      { src: '/photos/yeu-thuong-2.jpg', caption: 'Người thương con nhất' },
+      { src: '/photos/yeu-thuong-3.jpg', caption: 'Luôn có người bên cạnh' },
+      { src: '/photos/yeu-thuong-4.jpg', caption: 'Cả nhà mình' },
+    ],
     layout: 'grid',
   },
   {
@@ -115,7 +125,7 @@ export const CHAPTERS: Chapter[] = [
     subtitle: 'Gia Hân tròn 2 tuổi rồi!',
     body: [
       'Hai năm trôi qua nhanh như một cái chớp mắt.',
-      'Hôm nay con hai tuổi — cô bé nhỏ đã biết cười, biết chạy, biết ôm bố mẹ thật chặt.',
+      'Hôm nay con hai tuổi — cô gái bé nhỏ đã biết cười, biết chạy, biết ôm bố mẹ thật chặt.',
     ],
     photos: [{ src: '/photos/sinh-nhat-1.jpg', caption: 'Sinh nhật đầu tiên của con' }],
     layout: 'single',
