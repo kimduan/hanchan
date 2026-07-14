@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
+import { asset } from '../lib/asset'
 
 /**
  * Nút bật/tắt nhạc nền.
  * Nhạc mặc định TẮT vì trình duyệt chặn tự động phát tiếng.
  * Thêm file nhạc vào `public/music/nhac-nen.mp3`; chưa có file thì nút tự ẩn đi.
  */
-const TRACK = '/music/nhac-nen.mp3'
+const TRACK = asset('/music/nhac-nen.mp3')
 
 export default function MusicToggle() {
   const audioRef = useRef<HTMLAudioElement | null>(null)

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import type { Photo } from '../data/story'
+import { asset } from '../lib/asset'
 
 type Props = {
   photo: Photo
@@ -39,7 +40,7 @@ export default function PolaroidPhoto({ photo, tilt = 0, index = 0, className = 
           <MissingPhoto />
         ) : (
           <img
-            src={photo.src}
+            src={asset(photo.src)}
             alt={photo.caption ?? ''}
             loading="lazy"
             decoding="async"
