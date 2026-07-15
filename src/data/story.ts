@@ -61,8 +61,8 @@ export const CHAPTERS: Chapter[] = [
       'Và bố mẹ nhận ra: hoá ra hạnh phúc đơn giản đến thế.',
     ],
     photos: [
-      { src: '/photos/nu-cuoi-1.jpg', caption: 'Nụ cười đầu tiên' },
-      { src: '/photos/nu-cuoi-2.jpg', caption: 'Con tròn 1 tháng' },
+      { src: '/photos/nu-cuoi-1.jpg', caption: 'Lần đầu tiên con cười' },
+      { src: '/photos/nu-cuoi-2.jpg', caption: 'Khi con tròn 1 tháng' },
     ],
     layout: 'duo',
   },
@@ -80,6 +80,10 @@ export const CHAPTERS: Chapter[] = [
       { src: '/photos/thich-choi-2.jpg', caption: 'Nghiên cứu rất kỹ' },
       { src: '/photos/thich-choi-3.jpg', caption: 'Chơi cả ngày không chán' },
       { src: '/photos/thich-choi-4.jpg', caption: 'Tò mò mọi thứ' },
+      { src: '/photos/thich-choi-5.jpg', caption: 'Say sưa khám phá' },
+      { src: '/photos/thich-choi-6.jpg', caption: 'Vui đủ trò' },
+      { src: '/photos/thich-choi-7.jpg', caption: 'Nghịch một chút cũng đáng yêu' },
+      { src: '/photos/thich-choi-8.jpg', caption: 'Lúc nào cũng bận rộn' },
     ],
     layout: 'grid',
   },
@@ -95,15 +99,34 @@ export const CHAPTERS: Chapter[] = [
     photos: [
       { src: '/photos/chuyen-di-2.jpg', caption: 'Lần đầu đến một đất nước xa lạ' },
       { src: '/photos/chuyen-di-3.jpg', caption: 'Mùa hoa anh đào đầu tiên' },
-      { src: '/photos/chuyen-di-4.jpg', caption: 'Trên những con đường lạ' },
       { src: '/photos/chuyen-di-5.jpg', caption: 'Đi đâu con cũng thích' },
+      { src: '/photos/chuyen-di-6.jpg', caption: 'Những ngày rong ruổi' },
+      { src: '/photos/chuyen-di-7.jpg', caption: 'Thế giới thật rộng lớn' },
+      { src: '/photos/chuyen-di-8.jpg', caption: 'Mỗi nơi một kỷ niệm' },
       { src: '/photos/chuyen-di-1.jpg', caption: 'Ra sân bóng chơi' },
     ],
     layout: 'grid',
   },
   {
-    id: 'yeu-thuong',
+    id: 'di-hoc',
     index: '05',
+    title: 'Ngày đầu đi học',
+    subtitle: 'Cô bé lớn của bố mẹ',
+    body: [
+      'Con khoác balo, nắm tay cô, chập chững bước vào lớp học đầu tiên.',
+      'Bố mẹ vừa thương vừa tự hào — con của bố mẹ đã lớn thật rồi.',
+    ],
+    photos: [
+      { src: '/photos/di-hoc-1.jpg', caption: 'Theo cô vào lớp' },
+      { src: '/photos/di-hoc-2.jpg', caption: 'Ngày đầu đến trường' },
+      { src: '/photos/di-hoc-3.jpg', caption: 'Làm quen bạn mới' },
+      { src: '/photos/di-hoc-4.jpg', caption: 'Cô bé lớn rồi' },
+    ],
+    layout: 'grid',
+  },
+  {
+    id: 'yeu-thuong',
+    index: '06',
     title: 'Được mọi người yêu thương',
     subtitle: 'Gia đình mình',
     body: [
@@ -120,15 +143,21 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     id: 'sinh-nhat',
-    index: '06',
+    index: '07',
     title: 'Sinh nhật hôm nay',
     subtitle: 'Gia Hân tròn 2 tuổi rồi!',
     body: [
       'Hai năm trôi qua nhanh như một cái chớp mắt.',
       'Hôm nay con hai tuổi — cô gái bé nhỏ đã biết cười, biết chạy, biết ôm bố mẹ thật chặt.',
     ],
-    photos: [{ src: '/photos/sinh-nhat-1.jpg', caption: 'Sinh nhật đầu tiên của con' }],
-    layout: 'single',
+    photos: [
+      { src: '/photos/sinh-nhat-3.jpg', caption: 'Gia Hân 2 tuổi' },
+      { src: '/photos/sinh-nhat-2.jpg', caption: 'Xinh xắn đáng yêu' },
+      { src: '/photos/sinh-nhat-4.jpg', caption: 'Nụ cười rạng rỡ' },
+      { src: '/photos/sinh-nhat-5.jpg', caption: 'Cô công chúa nhỏ' },
+      { src: '/photos/sinh-nhat-1.jpg', caption: 'Sinh nhật đầu tiên của con' },
+    ],
+    layout: 'grid',
   },
 ]
 
