@@ -42,7 +42,7 @@ export const CHAPTERS: Chapter[] = [
     title: 'Khoảnh khắc con chào đời',
     subtitle: '16 tháng 7, 2024',
     body: [
-      'Đêm ấy, thế giới của bố mẹ bỗng thu bé lại vừa bằng tiếng khóc đầu đời và hơi thở ấm áp của con.',
+      'Sáng hôm ấy, thế giới của bố mẹ bỗng thu bé lại vừa bằng tiếng khóc đầu đời và hơi thở ấm áp của con.',
       'Từ khoảnh khắc con nắm lấy tay bố, mọi định nghĩa về hạnh phúc của gia đình mình đều bắt đầu từ con.',
     ],
     photos: [
