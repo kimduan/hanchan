@@ -39,11 +39,11 @@ export const CHAPTERS: Chapter[] = [
   {
     id: 'chao-doi',
     index: '01',
-    title: 'Chào đời',
+    title: 'Khoảnh khắc con chào đời',
     subtitle: '16 tháng 7, 2024',
     body: [
-      'Đêm ấy, một ngôi sao rời bầu trời và rơi vào vòng tay bố mẹ.',
-      'Con bé xíu, ấm áp, và cả thế giới của bố mẹ bỗng đổi khác kể từ giây phút đó.',
+      'Đêm ấy, thế giới của bố mẹ bỗng thu bé lại vừa bằng tiếng khóc đầu đời và hơi thở ấm áp của con.',
+      'Từ khoảnh khắc con nắm lấy tay bố, mọi định nghĩa về hạnh phúc của gia đình mình đều bắt đầu từ con.',
     ],
     photos: [
       { src: '/photos/chao-doi-1.jpg', caption: 'Ngày đầu tiên của con' },
@@ -58,7 +58,7 @@ export const CHAPTERS: Chapter[] = [
     subtitle: 'Khi cả nhà biết thế nào là hạnh phúc',
     body: [
       'Rồi một ngày con cười. Không vì điều gì cả, chỉ là con cười.',
-      'Và bố mẹ nhận ra: hoá ra hạnh phúc đơn giản đến thế.',
+      'Khoảnh khắc con mỉm cười rạng rỡ, bố mẹ hiểu được rằng: Hóa ra hạnh phúc chỉ đơn giản thế thôi',
     ],
     photos: [
       { src: '/photos/nu-cuoi-1.jpg', caption: 'Lần đầu tiên con cười' },
@@ -69,11 +69,11 @@ export const CHAPTERS: Chapter[] = [
   {
     id: 'thich-choi',
     index: '03',
-    title: 'Thích chơi và tò mò mọi thứ',
+    title: 'Thích khám phá cả thế giới',
     subtitle: 'Cái gì con cũng muốn biết',
     body: [
-      'Con ngã, con đứng dậy, con đi. Rồi con chạy khắp nhà.',
-      'Cái gì cũng lạ, cái gì cũng phải cầm lên xem cho bằng được — và bố mẹ chỉ biết đứng nhìn con khám phá thế giới.',
+      'Lần đầu con biết bò, biết đi, biết chạy và những lần con vấp ngã.',
+      'Cái gì đối với con cũng lạ và đầy sự tò mò — và bố mẹ chỉ biết đứng nhìn con khám phá thế giới.',
     ],
     photos: [
       { src: '/photos/thich-choi-1.jpg', caption: 'Cái này là cái gì nhỉ?' },
@@ -90,11 +90,11 @@ export const CHAPTERS: Chapter[] = [
   {
     id: 'chuyen-di',
     index: '04',
-    title: 'Những chuyến đi',
+    title: 'Những chuyến đi xa, những trải nghiệm đầy lý thú',
     subtitle: 'Thế giới rộng lớn ngoài kia',
     body: [
-      'Biển, núi, những con đường lạ — con mở to mắt nhìn tất cả.',
-      'Bố mẹ muốn cùng con đi thật nhiều nơi, để con biết thế giới này đẹp đến nhường nào.',
+      'Với con, mọi nơi trên thế giới này đều thật đẹp và kỳ diệu.',
+      'Với bố mẹ, những nơi có con đồng hành cùng đều thật ý nghĩa.',
     ],
     photos: [
       { src: '/photos/chuyen-di-1.jpg', caption: 'Lên đường, hành trình bắt đầu' },
@@ -109,11 +109,11 @@ export const CHAPTERS: Chapter[] = [
   {
     id: 'di-hoc',
     index: '05',
-    title: 'Những ngày bước chân tới trường',
+    title: 'Ngày đầu tiên đến trường',
     subtitle: 'Cô bé lớn của bố mẹ',
     body: [
-      'Con khoác balo, nắm tay cô, chập chững bước vào lớp học đầu tiên.',
-      'Bố mẹ vừa thương vừa tự hào — con của bố mẹ đã lớn thật rồi.',
+      'Thật vui khi ngày đầu đến trường với con không khiến bố mẹ quá lo lắng.',
+      'Con đầy vui vẻ và háo hức với trường mới, cô mới, bạn bè mới và những bài học mới!',
     ],
     photos: [
       { src: '/photos/di-hoc-1.jpg', caption: 'Theo cô vào lớp' },
@@ -129,8 +129,8 @@ export const CHAPTERS: Chapter[] = [
     title: 'Được mọi người yêu thương',
     subtitle: 'Gia đình mình',
     body: [
-      'Ông bà, bố mẹ, và tất cả những người luôn dõi theo con.',
-      'Con lớn lên trong rất nhiều yêu thương — và đó là điều bố mẹ tự hào nhất.',
+      'Thật may mắn khi con được sinh ra trong ngôi nhà tràn ngập sự yêu thương.',
+      'Trong mắt mọi người, con luôn là đứa cháu bé bỏng và đáng yêu.',
     ],
     photos: [
       { src: '/photos/yeu-thuong-1.jpg', caption: 'Trong vòng tay gia đình' },
@@ -146,8 +146,8 @@ export const CHAPTERS: Chapter[] = [
     title: 'Sinh nhật hôm nay',
     subtitle: 'Gia Hân tròn 2 tuổi rồi!',
     body: [
-      'Hai năm trôi qua nhanh như một cái chớp mắt.',
-      'Hôm nay con hai tuổi — cô gái bé nhỏ đã biết cười, biết chạy, biết ôm bố mẹ thật chặt.',
+      'Hai năm trôi qua nhanh như một cái chớp mắt. Nhìn con gái yêu của bố mẹ ngày một khôn lớn, bố mẹ cảm thấy thật bồi hồi và xao xuyến.',
+      'Mong rằng, tuổi mới con ngày càng ăn ngoan chóng lớn, luôn là niềm tự hào của bố mẹ.',
     ],
     photos: [
       { src: '/photos/sinh-nhat-3.jpg', caption: 'Gia Hân 2 tuổi' },
@@ -160,7 +160,7 @@ export const CHAPTERS: Chapter[] = [
 ]
 
 export const FINALE = {
-  title: 'Chúc mừng sinh nhật Gia Hân!',
+  title: 'Chúc mừng sinh nhật con, Gia Hân!',
   message: 'Cảm ơn vì đã đến với gia đình.',
   signature: 'Bố & Mẹ',
 } as const
