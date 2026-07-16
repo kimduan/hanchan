@@ -113,7 +113,7 @@ export const CHAPTERS: Chapter[] = [
     subtitle: 'Cô bé lớn của bố mẹ',
     body: [
       'Thật vui khi ngày đầu đến trường với con không khiến bố mẹ quá lo lắng.',
-      'Con đầy vui vẻ và háo hức với trường mới, cô mới, bạn bè mới và những bài học mới!',
+      'Con đầy vui vẻ và háo hức với môi trường mới, cô mới, bạn bè mới và những bài học mới!',
     ],
     photos: [
       { src: '/photos/di-hoc-1.jpg', caption: 'Theo cô vào lớp' },
