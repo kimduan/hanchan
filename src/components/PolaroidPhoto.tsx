@@ -28,7 +28,7 @@ export default function PolaroidPhoto({ photo, tilt = 0, index = 0, className = 
 
   return (
     <motion.figure
-      className={`group relative rounded-sm bg-white/90 p-2.5 pb-9 shadow-[0_12px_40px_-8px_rgba(0,0,0,0.65)] ring-1 ring-white/20 backdrop-blur-sm ${className}`}
+      className={`group relative rounded-sm bg-white/90 p-2.5 pb-3.5 shadow-[0_12px_40px_-8px_rgba(0,0,0,0.65)] ring-1 ring-white/20 backdrop-blur-sm ${className}`}
       initial={{ opacity: 0, y: 40, rotate: tilt * 2.2, scale: 0.94 }}
       whileInView={{ opacity: 1, y: 0, rotate: tilt, scale: 1 }}
       viewport={{ once: true, amount: 0.25 }}
@@ -49,11 +49,6 @@ export default function PolaroidPhoto({ photo, tilt = 0, index = 0, className = 
           />
         )}
       </div>
-      {photo.caption && (
-        <figcaption className="absolute right-0 bottom-2.5 left-0 px-2 text-center font-script text-lg leading-none text-night-800">
-          {photo.caption}
-        </figcaption>
-      )}
     </motion.figure>
   )
 }
