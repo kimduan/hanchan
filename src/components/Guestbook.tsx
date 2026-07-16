@@ -92,7 +92,7 @@ export default function Guestbook() {
   const wishes = entries.filter((e) => e.type === 'chuc')
 
   return (
-    <section id="loi-chuc" className="relative px-6 py-24 sm:px-10">
+    <section id="loi-chuc" className="relative px-6 py-16 sm:px-10 sm:py-20">
       <div className="mx-auto w-full max-w-4xl">
         <motion.div
           className="mb-12 text-center"

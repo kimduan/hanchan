@@ -16,7 +16,7 @@ export default function ChapterSection({ chapter }: { chapter: Chapter }) {
   return (
     <section
       id={chapter.id}
-      className="relative flex min-h-[100svh] flex-col justify-center px-6 py-24 sm:px-10"
+      className="relative px-6 py-14 sm:px-10 sm:py-20"
     >
       <div className="mx-auto w-full max-w-5xl">
         <motion.div
